@@ -21,6 +21,5 @@ Route::get('register',[UserController::class,'register'])->name('register');
 Route::post('registerUser',[UserController::class,'registerUser'])->name('registerUser');
 Route::get('dashboard',[UserController::class,'dashboard'])->name('dashboard');
 Route::get('logout',[UserController::class,'logout'])->name('logout');
-Route::view('pamrod','pamrod');
-Route::view('sahu','sahu');
+Route::view('newsahu','newsahu');
 
