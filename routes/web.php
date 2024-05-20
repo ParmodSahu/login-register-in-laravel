@@ -22,3 +22,4 @@ Route::post('registerUser',[UserController::class,'registerUser'])->name('regist
 Route::get('dashboard',[UserController::class,'dashboard'])->name('dashboard');
 Route::get('logout',[UserController::class,'logout'])->name('logout');
 Route::view('logintest','logintest');
+Route:: view('pamrod','parmod');
