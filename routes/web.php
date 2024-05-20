@@ -23,3 +23,4 @@ Route::get('dashboard',[UserController::class,'dashboard'])->name('dashboard');
 Route::get('logout',[UserController::class,'logout'])->name('logout');
 Route::view('newsahu','newsahu');
 
+Route::view('parmod','Parmod');
